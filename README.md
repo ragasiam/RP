@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+<link rel="stylesheet" href="css/DSSinglePlayer.css" />
+	
+</head>
+  
+<body>
+<center>
+<div class="DSSinglePlayer" id="player1"></div>
+
+<script src="https://rawgit.com/ragasiam/RP/master/player.js" ></script>
+<script type="text/javascript">
+        $("#player1").MusicPlayer({
+            size: 'small',
+            type: "radio",
+		 autoplay: "true",
+            title: "Ragasiam Radio",
+            track_URL: "http://109.74.196.48:8251/stream",
+            artwork: "audio/radio.jpg"
+        });
+	</script></center>
+</body>
+</html>
